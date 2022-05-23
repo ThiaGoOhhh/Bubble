@@ -11,7 +11,7 @@ body {
   width: 30px;
   height: 30px;
 }
-.pulsating-circle:before {
+.pulsating-circle1:before {
   content: '';
   position: relative;
   display: block;
@@ -25,7 +25,7 @@ body {
   -webkit-animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
           animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
 }
-.pulsating-circle:after {
+.pulsating-circle1:after {
   content: '';
   position: absolute;
   left: 0;
