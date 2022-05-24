@@ -1,5 +1,5 @@
 body {
-  background: #454a59;
+  background: #c2c2c2;
 }
 
 .pulsating-circle {
@@ -74,7 +74,7 @@ body {
   }
 }
 @keyframes pulse-dot {
-  0% {
+  50% {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
