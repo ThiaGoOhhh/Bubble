@@ -1,15 +1,15 @@
 body {
-  background: #c2c2c2;
+  background: #ad1457;
 }
 
 .pulsating-circle {
   position: absolute;
-  left: 75%;
-  top: 75%;
+  left: 50%;
+  top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
-  width: 30px;
-  height: 30px;
+  width: 80px;
+  height: 80px;
 }
 .pulsating-circle1:before {
   content: '';
@@ -74,7 +74,7 @@ body {
   }
 }
 @keyframes pulse-dot {
-  50% {
+  0% {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
